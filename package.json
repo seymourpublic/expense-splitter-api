@@ -1,0 +1,26 @@
+{
+  "name": "expense-splitter-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.0",
+    "nodemon": "^3.1.9",
+    "pdfkit": "^0.16.0",
+    "swagger-docs": "^0.0.0-alpha2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui": "^5.18.3",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
